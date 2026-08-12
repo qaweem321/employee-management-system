@@ -3,6 +3,7 @@ import cors from "cors";
 import "dotenv/config";
 import multer from "multer";
 import connectDB from "./config/db.js";
+import { notFound, errorHandler } from "./middleware/errorHandler.js";
 import authRouter from "./routes/authRoutes.js";
 import employeesRouter from "./routes/employeeRoutes.js";
 import profileRouter from "./routes/profileRoutes.js";
@@ -34,6 +35,10 @@ app.use("/api/payslips", payslipRouter)
 app.use("/api/dashboard", dashboardRouter)
 
 app.use("/api/inngest", serve({ client: inngest, functions }));
+
+// 404 + centralized error handler — must be registered after all routes
+app.use(notFound);
+app.use(errorHandler);
 
 await connectDB()
 app.listen(PORT, ()=> console.log(`Server running on port ${PORT}`))
