@@ -1,0 +1,31 @@
+MIT License
+
+Copyright (c) 2026 Qaweem Ahmad
+
+Scope: this license applies only to the changes authored by Qaweem Ahmad in
+this repository's commit history (documentation, configuration examples,
+the centralized 404/error-handling middleware, and the client-side 401
+redirect interceptor). It does NOT cover the base application as
+originally received from the purchased starter template that this project
+builds on — that code's licensing terms are unspecified, and it should be
+treated as all rights reserved to its original author. See the README for
+details.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of the covered portions of this software and associated documentation
+files, to deal in the covered portions without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies, and to permit persons to whom
+the covered portions are furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the covered portions.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
