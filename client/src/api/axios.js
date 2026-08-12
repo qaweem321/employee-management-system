@@ -13,4 +13,18 @@ api.interceptors.request.use((config)=>{
     return config;
 })
 
+// If the API ever responds 401 (expired/invalid token), clear the stale
+// token and send the user back to the login screen instead of letting
+// every page handle that failure individually.
+api.interceptors.response.use(
+    (response) => response,
+    (error) => {
+        if(error.response?.status === 401 && window.location.pathname !== "/login"){
+            localStorage.removeItem("token")
+            window.location.href = "/login"
+        }
+        return Promise.reject(error)
+    }
+)
+
 export default api
