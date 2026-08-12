@@ -116,6 +116,15 @@ npm run seed
 
 ## License
 
-No license file was provided with the original template, so this repository
-is shared for portfolio/demonstration purposes only — please don't treat it
-as licensed for reuse.
+This started from a purchased starter template with no formal license terms
+attached (an informal "pay a small fee, the project's yours" arrangement,
+not a written license) — so I can't grant reuse rights over that base code,
+since I don't hold clear rights to it myself.
+
+What I *can* license is the work that's actually mine: the changes in this
+repo's commit history (README, `.env.example` files, the centralized
+error-handling middleware, and the client-side 401 redirect interceptor)
+are released under the [MIT License](LICENSE) — feel free to reuse those
+specific pieces. Everything else (the base application as originally
+received) is unlicensed; treat it as all-rights-reserved to the original,
+unknown author.
