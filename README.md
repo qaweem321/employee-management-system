@@ -4,14 +4,24 @@ A full-stack Employee Management System with role-based dashboards for
 Admins and Employees — employee records, attendance tracking, leave
 applications, and payslip generation.
 
-**Live demo:** _add your deployed URL here_
-**Screenshots:** _add a screenshot or two here once deployed_
+**Live demo:** https://employee-management-system-phi-pink.vercel.app/login
+
+Sign in through the **Admin Portal** with the shared demo account:
+
+| | |
+|---|---|
+| Email | `qaweem321@gmail.com` |
+| Password | `admin123` |
+
+These are published deliberately, so the demo can be opened without asking
+me for access. It is a shared account on demo data — please be gentle with
+it.
 
 ## Project origin & what I did
 
 This project started from a purchased starter template (a MERN-stack EMS
 boilerplate). I did not write the original application from scratch. What
-you'll find in the commit history here is my own work on top of it:
+you'll find in the commit history is my own work on top of it:
 
 - Audited and patched dependency vulnerabilities (`npm audit`) on both the
   client and server
@@ -22,7 +32,7 @@ you'll find in the commit history here is my own work on top of it:
 - Wrote this README
 
 I'm keeping this transparent rather than presenting the whole codebase as
-original work — the commit/branch history below reflects exactly what I
+original work — the commit/branch history reflects exactly what I
 changed and why.
 
 ## Tech stack
